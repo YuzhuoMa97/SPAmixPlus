@@ -13,5 +13,8 @@ The empirical type I error rates of SPAmix, SPAGRM, and [REGENIE](https://rgcgit
 
 # SPAmix+ can control for population structure and family relatedness
 
+We simulate heterogeneous populations with population-specific MAF and prevalence. In this situation, SPAmix+ can control for population structure and family relatedness.
+
+
 
 
