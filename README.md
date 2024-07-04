@@ -1,7 +1,8 @@
 # SPAmix+
 A scalable, accurate, and universal analysis framework to control for population structure and family relatedness in large-scale genome-wide association studies (GWAS).
 
-Please do not hesitate to contact me (yuzhuoma@stu.pku.edu.cn) if you are interested in SPAmix+ or other retrospective saddlepoint approximation methods for GWAS. Suggestions or comments are also welcome.
+Please do not hesitate to contact me (yuzhuoma@stu.pku.edu.cn) if you are interested in SPAmix+ or other retrospective saddlepoint approximation methods desigend for GWAS. Retrospective saddlepoint approximation methods were first proposed in the master's thesis (Ma, 2022)
+Suggestions or comments are also welcome.
 
 # Comparision of SPAmix+, SPA<sub>GRM</sub> and regular methods
 
