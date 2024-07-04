@@ -13,7 +13,7 @@ The empirical type I error rates of SPAmix, SPAGRM, and [REGENIE](https://rgcgit
 
 # SPAmix+ can control for population structure and family relatedness
 
-We simulate heterogeneous populations with population-specific MAF and prevalence and evaluate type I error for binary trait analysis based on 100,000 tests. In this situation, SPAmix+ can control for population structure and family relatedness, and SPAGRM had inflated type I error rates (see the figure below).
+We simulate heterogeneous populations with population-specific MAF and prevalence and evaluate type I error for binary trait analysis based on 100,000 tests. In this situation, **SPAmix+ can control for population structure and family relatedness, and SPAGRM had inflated type I error rates** (see the figure below).
 
 ![plot](https://github.com/YuzhuoMa97/SPAmixPlus/blob/main/Simulation%20studies/Figures/typeIerror_binary_phenotype_SPAmixPlus_test10.jpeg)
 
