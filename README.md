@@ -22,3 +22,5 @@ We simulate heterogeneous populations with population-specific MAF and prevalenc
 ![plot](https://github.com/YuzhuoMa97/SPAmixPlus/blob/main/Simulation%20studies/Figures/typeIerror_binary_phenotype_SPAmixPlus_test10.jpeg)
 
 # SPAmix+ can test multiple populations with different level of relateness.
+
+We simulate heterogeneous populations with different level of relatenedd, MAF, and prevalence. 
