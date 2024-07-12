@@ -23,4 +23,8 @@ We simulate heterogeneous populations with population-specific MAF and prevalenc
 
 # SPAmix+ can test multiple populations with different levels of relateness.
 
-We simulate heterogeneous populations (sample size n = 10000) with different level of relateness, MAF, and prevalence. We analyzed binary traits. The prevalence (case-control ratio) in population 1 was 0.01 (1:99), and the prevalence (case-control ratio) in population 2 was 0.01 (1:1). The MAF in population1 was 0.01, and the MAF in population1 was 0.3. The first 5000 subjects were from population 1, and the remaining 5000 subjects were from population 2.
+We simulate heterogeneous populations (sample size n = 10000) with different levels of relateness, MAF, and prevalence. The MAF in population1 was 0.01, and the MAF in population1 was 0.3. The first 5000 subjects (including 500 families with 10 family members) were from population 1, and the remaining 5000 (including 500 families with 10 family members) subjects were from population 2. We simulated genotypes through gene-dropping simulation. We analyzed binary traits. The prevalence (case-control ratio) in population 1 was 0.01 (1:99), and the prevalence (case-control ratio) in population 2 was 0.01 (1:1). We simulated binary traits using logistic mixed model. Two covariates were simulated folowing standard normal distribution and Bernoulli(0.5) distribution, respectively. The random effect (b_i) in population 1 and 2 were simulated following a multivariate normal distribution N(0, tau_pop1 * GRM_pop1) and N(0, tau_pop2 * GRM_pop2), respectively. Let tau_pop1 = 0.1 and tau_pop2 = 5. 
+
+We evaluated type I error rates of SPAGRM and our proposed method SPAmix+. In total, 1000000 tests were conducted. 
+
+**The results demonstrated that SPAGRM cannot control type I error rates, while SPAmix+ can control for population structure with different levels of relateness.**
