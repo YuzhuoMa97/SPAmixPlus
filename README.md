@@ -23,4 +23,4 @@ We simulate heterogeneous populations with population-specific MAF and prevalenc
 
 # SPAmix+ can test multiple populations with different level of relateness.
 
-We simulate heterogeneous populations with different level of relatenedd, MAF, and prevalence. 
+We simulate heterogeneous populations (sample size n = 10000) with different level of relateness, MAF, and prevalence. We analyzed binary traits. The prevalence (case-control ratio) in population 1 was 0.01 (1:99), and the prevalence (case-control ratio) in population 2 was 0.01 (1:1).
