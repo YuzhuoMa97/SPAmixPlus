@@ -28,3 +28,4 @@ We simulate heterogeneous populations (sample size n = 10000) with different lev
 We evaluated type I error rates of SPAGRM and our proposed method SPAmix+. In total, 1000000 tests were conducted. 
 
 **The results demonstrated that SPAGRM cannot control type I error rates, while SPAmix+ can control for population structure with different levels of relateness.**
+![plot](https://github.com/YuzhuoMa97/SPAmixPlus/blob/main/Simulation%20studies/Figures/typeIerror_binary_phenotype_SPAmixPlus_GRAB_SPAGRM_test10_1e6.jpeg)
