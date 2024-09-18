@@ -22,13 +22,13 @@ We simulate heterogeneous populations with population-specific MAF and prevalenc
 
 ![plot](https://github.com/YuzhuoMa97/SPAmixPlus/blob/main/Simulation%20studies/Figures/typeIerror_binary_phenotype_SPAmixPlus_test10.jpeg)
 
-# SPAmix+ can test multiple populations with different levels of relateness.
+# SPAmix+ can test multiple populations with different levels of relatedness.
 
 We simulate heterogeneous populations (sample size n = 10000) with different levels of relateness, MAF, and prevalence. The MAF in population1 was 0.01, and the MAF in population1 was 0.3. The first 5000 subjects (including 500 families with 10 family members) were from population 1, and the remaining 5000 (including 500 families with 10 family members) subjects were from population 2. We simulated genotypes through gene-dropping simulation. We analyzed binary traits. The prevalence (case-control ratio) in population 1 was 0.01 (1:99), and the prevalence (case-control ratio) in population 2 was 0.01 (1:1). We simulated binary traits using logistic mixed model. Two covariates were simulated folowing standard normal distribution and Bernoulli(0.5) distribution, respectively. The random effect (b_i) in population 1 and 2 were simulated following a multivariate normal distribution N(0, tau_pop1 * GRM_pop1) and N(0, tau_pop2 * GRM_pop2), respectively. Let tau_pop1 = 0.1 and tau_pop2 = 5. 
 
 We evaluated type I error rates of SPAGRM and our proposed method SPAmix+. In total, 1000000 tests were conducted. 
 
-**The results demonstrated that SPAGRM cannot control type I error rates, while SPAmix+ can control for population structure with different levels of relateness.**
+**The results demonstrated that SPAGRM cannot control type I error rates, while SPAmix+ can control for population structure with different levels of relatedness.**
 ![plot](https://github.com/YuzhuoMa97/SPAmixPlus/blob/main/Simulation%20studies/Figures/typeIerror_binary_phenotype_SPAmixPlus_GRAB_SPAGRM_test10_1e6.jpeg)
 
 # SPAmix+ can can control for population structure and family relatedness even in admixed populations with ancestry-specific MAFs and case-control ratios.
@@ -36,4 +36,6 @@ We evaluated type I error rates of SPAGRM and our proposed method SPAmix+. In to
 We conduct simulation studies to analyze binary (case-control) traits in a heterogeneous population. We simulate an admixed population of EUR (European) population and EAS (East Asian) population with sample size n = 20000, containing 5,000 4-member families. For each genetic variant, we simulated genotypes using ancestry vectors and allele frequency downloaded from the 1000 Genomes Project. Depending on the difference of MAFs (i.e. DiffMAF = MAF in EUR - MAF in EAS) and the minimal MAF value (i.e. minMAF = min(MAF in EUR, MAF in EAS)) in populations EUR and EAS, genetic variants were categorized into 15 groups. The case-control ratio (prevalence) in EUR was higher or lower than that in EAS.
 
 The QQPlots showed that, if prevalences (or case-control ratios) were different in EUR and EAS populations, **although incorporating SNP-derived ancestry PCs as covariates, SPAGRM can have inflated or deflated type I error rates** depending on prevalence (case-control ratios) and MAF in EUR and EAS populations. Meanwhile, SPAmix+ can still control type I error rates reasonably well(see the figure below).
+![plot](https://github.com/YuzhuoMa97/SPAmixPlus/blob/main/Simulation%20studies/Figures/binary-type-one-error-1e6-5methods-sigLevel-QQplot_prevalence.id-7.png)
 
+**The results demonstrated that SPAGRM cannot control type I error rates, while SPAmix+ can control for population structure and sample relatedness even in admixed populations.**
