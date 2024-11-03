@@ -1,14 +1,23 @@
 # SPAmix+
 A scalable, accurate, and universal analysis framework to control for population structure and family relatedness in large-scale genome-wide association studies (GWAS).
 
-Please do not hesitate to contact me (yuzhuoma@stu.pku.edu.cn) if you are interested in SPAmix+ or other retrospective saddlepoint approximation methods desigend for GWAS. Retrospective saddlepoint approximation methods were first proposed in the master's thesis ([马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.](https://kns.cnki.net/kcms2/article/abstract?v=jkwd3qsBIEKwkKkgMuimTLSEojAEBaWSJzCAd3uOCepX09aaYi1Vhn87HddxnsydAW9MGQHzgdF9Nw93IZ_DZCdJbGAX3C13DfGxpW58VBV273z1eVlg75Je1akPxIDc5iiSpz46iutS1tt9m3MJRg==&uniplatform=NZKPT&language=CHS) 
-**DOI：	10.27272/d.cnki.gshdu.2022.002946**.) Based on the idea in the above master's thesis, we have applied retrospective saddlepoint approximation to several methods including SPAmix (since 2020), SPAmix+ (based on SPAmix since 2024), SPAGxECCT (based on SPAmix since 2021), and SPAGxEmix+ (based on SPAmix since 2024). 
+Please do not hesitate to contact me (yuzhuoma@stu.pku.edu.cn) if you are interested in SPAmix+ or other retrospective saddlepoint approximation methods desigend for GWAS.
+
+# Introduction of Retrospective saddlepoint approximation (Retrospective SPA) approach in GWAS
+
+Retrospective saddlepoint approximation (Retrospective SPA) methods were first proposed in the master's thesis ([马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.](https://kns.cnki.net/kcms2/article/abstract?v=jkwd3qsBIEKwkKkgMuimTLSEojAEBaWSJzCAd3uOCepX09aaYi1Vhn87HddxnsydAW9MGQHzgdF9Nw93IZ_DZCdJbGAX3C13DfGxpW58VBV273z1eVlg75Je1akPxIDc5iiSpz46iutS1tt9m3MJRg==&uniplatform=NZKPT&language=CHS) 
+**DOI：	10.27272/d.cnki.gshdu.2022.002946**.)
+
+Based on the idea in the above master's thesis, we have applied retrospective saddlepoint approximation to several methods including SPAmix (since 2020), SPAmix+ (based on SPAmix since 2024), SPAGxECCT (based on SPAmix since 2021), and SPAGxEmix+ (based on SPAmix since 2024). 
 
 **If you used retrospective saddlepoint approximation method in your proposed methods or tools, please respect the original ideas in the two original works (SPAGxECCT and SPAmix) that first proposed retrospective saddlepoint approximation method and cite the two papers (SPAGxECCT and SPAmix) or the master's thesis ([马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.](https://kns.cnki.net/kcms2/article/abstract?v=jkwd3qsBIEKwkKkgMuimTLSEojAEBaWSJzCAd3uOCepX09aaYi1Vhn87HddxnsydAW9MGQHzgdF9Nw93IZ_DZCdJbGAX3C13DfGxpW58VBV273z1eVlg75Je1akPxIDc5iiSpz46iutS1tt9m3MJRg==&uniplatform=NZKPT&language=CHS) according to academic standards.** (MLA format citation: [1]马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.)
 
 For the reasons why these two papers (SPAGxECCT and SPAmix) have not been published yet (more than three years since retrospective saddlepoint approximation method was proposed), please consult the relevant authors and supervisors.
 
 Suggestions or comments on retrospective saddlepoint approximation methods are also welcome.
+
+
+
 
 # Comparision of SPAmix+, SPA<sub>GRM</sub> and regular methods
 
