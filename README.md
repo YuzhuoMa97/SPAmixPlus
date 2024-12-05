@@ -21,7 +21,7 @@ Based on the idea in the above master's thesis, we have applied retrospective sa
 
 **in accordance with academic standards.**
 
-MLA format citation: [1]马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.
+- **MLA format citation:** [1]马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.
 
 Given that the two pivotal papers  
 
