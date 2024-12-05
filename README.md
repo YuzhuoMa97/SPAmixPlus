@@ -26,9 +26,11 @@ In the SPAmix paper (**A scalable, accurate, and universal analysis framework us
 
 # The SPAmix paper and the SPAmix+ paper are two distinct papers
 
-**Note that the SPAmix paper and the SPAmix+ paper are two distinct papers, since the algorithm of SPAmix was designed in 2021.** 
+**Please note that the SPAmix paper and the SPAmix+ paper are two distinct papers. Unfortunately, although the SPAmix algorithm was completed in 2021, its submission was delayed for some reasons. Consequently, the SPAmix+ algorithm will be presented in a separate paper rather than within the SPAmix paper.** 
 
 SPAmix has been implemented in R package GRAB.
+
+The package of SPAmix+ is in preparation.
 
 # Comparision of SPAmix+, SPA<sub>GRM</sub> and regular methods
 
