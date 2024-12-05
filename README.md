@@ -28,7 +28,7 @@ have not yet been published--despite the retrospective saddlepoint approximation
 
 Suggestions or comments on retrospective saddlepoint approximation methods are also welcome.
 
-<span style="color: red;">红色文字</span>
+这段文字是蓝色的：`#0000FF`
 
 # SPAmix+ is an extension of SPAmix
 In the SPAmix paper (**A scalable, accurate, and universal analysis framework using individual-level allele frequency for large-scale genetic association studies in an admixed population**), we proposed SPAmix framework that is applicable to admixed populations and can incorporate local ancestry information into analyses. However, SPAmix is only designed for unrelated individuals and cannot account for sample relatedness.
