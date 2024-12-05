@@ -14,7 +14,7 @@ Based on the idea in the above master's thesis, we have applied retrospective sa
 
 **If you utilized the retrospective saddlepoint approximation method in your proposed methods or tools, please acknowledge and respect the original ideas presented in the two pioneering works (SPAGxECCT and SPAmix). Additionally, kindly cite the original papers (SPAGxECCT and SPAmix) or the master's thesis ([马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.](https://kns.cnki.net/kcms2/article/abstract?v=jkwd3qsBIEKwkKkgMuimTLSEojAEBaWSJzCAd3uOCepX09aaYi1Vhn87HddxnsydAW9MGQHzgdF9Nw93IZ_DZCdJbGAX3C13DfGxpW58VBV273z1eVlg75Je1akPxIDc5iiSpz46iutS1tt9m3MJRg==&uniplatform=NZKPT&language=CHS) in accordance with academic standards.**
 
-<span style="color: red">MLA format citation:</span> [1]马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.
+MLA format citation: [1]马雨茁.经验鞍点近似方法及其在全基因组关联分析中的应用研究.2022.山东大学,MA thesis.doi:10.27272/d.cnki.gshdu.2022.002946.
 
 Given that the two pivotal papers  
 
@@ -28,6 +28,7 @@ have not yet been published--despite the retrospective saddlepoint approximation
 
 Suggestions or comments on retrospective saddlepoint approximation methods are also welcome.
 
+<span style="color: red;">红色文字</span>
 
 # SPAmix+ is an extension of SPAmix
 In the SPAmix paper (**A scalable, accurate, and universal analysis framework using individual-level allele frequency for large-scale genetic association studies in an admixed population**), we proposed SPAmix framework that is applicable to admixed populations and can incorporate local ancestry information into analyses. However, SPAmix is only designed for unrelated individuals and cannot account for sample relatedness.
