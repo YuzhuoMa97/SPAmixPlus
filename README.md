@@ -19,13 +19,13 @@ For the reasons why these two papers (**SPAGxECCT** (A scalable and accurate fra
 Suggestions or comments on retrospective saddlepoint approximation methods are also welcome.
 
 
-# SPAmix+ is an extension of SPAmix
+# SPAmix+ is an extension of SPAmix, and the SPAmix paper and the SPAmix+ paper are two distinct papers
 
 In the SPAmix paper (**A scalable, accurate, and universal analysis framework using individual-level allele frequency for large-scale genetic association studies in an admixed population**), we proposed SPAmix framework that is applicable to admixed populations and can incorporate local ancestry information into analyses. However, SPAmix is only designed for unrelated individuals and cannot account for sample relatedness.
 
 **We are preparing the SPAmix+ paper (A scalable and accurate analysis framework accounting for sample relatedness and population structure for large-scale genetic association studies in an admixed population).** In this paper, we extend SPAmix to SPAmix+, a universal analysis framework that accounts for both population structure and sample relatedness. SPAmix+ allows for the incorporation of admixed individuals into analyses. In addition, SPAmix can be extended to SPAmix+(local), which has the ability to incorporates local ancestry.
 
-**Note that the SPAmix paper and the SPAmix+ paper are two different papers, since the algorithm of SPAmix was complete in 2021.** SPAmix has been implemented in R package GRAB.
+**Note that the SPAmix paper and the SPAmix+ paper are two distinct papers, since the algorithm of SPAmix was designed in 2021.** SPAmix has been implemented in R package GRAB.
 
 # Comparision of SPAmix+, SPA<sub>GRM</sub> and regular methods
 
